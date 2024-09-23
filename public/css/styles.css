@@ -1,0 +1,143 @@
+/* override styles */
+a {
+    text-decoration: none;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.btn-close {
+    background-color: inherit;
+}
+
+.table-hover>tbody>tr:hover>* {
+    --bs-table-accent-bg: #f3f3f3 !important;
+}
+
+/* app styles */
+
+.app-dashboard-dates a {
+    display: inline-block;
+    font-size: 14px;
+    margin-right: 15px;
+}
+
+.app-filter-submit {
+    margin-top: 34px;
+    padding: 9px 20px;
+}
+
+.app-font-bold {
+    font-weight: bold;
+}
+
+.app-font-tiny {
+    font-size: 11px;
+}
+
+.app-invalid-input {
+    display: block;
+}
+
+.app-menu-mobile button {
+    background-color: var(--bs-primary) !important;
+}
+
+.app-menu-mobile svg {
+    color: white;
+}
+
+.app-nav {
+    margin-bottom: 25px;
+}
+
+.app-nav .nav-item:first-child .nav-link {
+    padding-left: 0;
+}
+
+.app-search-container {
+    margin-bottom: 30px;
+}
+
+.app-table {
+    background: #fff;
+    margin-bottom: 45px;
+    border-radius: 10px;
+}
+
+.app-table tbody tr:last-child{
+    border-color: transparent;
+}
+
+.app-table td, 
+.app-table th {
+    font-size: 14px;
+}
+
+.app-table th a {
+    color: #747474 !important;
+    color: inherit;
+    display: inline-block;
+    text-decoration: underline;
+}
+
+.app-table tr:first-child th {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.app-table-invoice-activities-total {
+    padding-top: 5px;
+}
+
+.app-table-heading-icon,
+.app-table-heading-link {
+    display: flex;
+    align-items: center;   
+}
+
+.app-table-heading-icon i,
+.app-table-heading-link i {
+    margin-left: 6px;
+    font-size: 11px;
+}
+
+.app-table-invoice-activity {
+    display: block;
+    margin-bottom: 3px;
+}
+
+.app-tbody > tr:first-child {
+    background: inherit;
+}
+
+.app-text-bold {
+    font-weight: bold;
+}
+
+.app-text-right {
+    text-align: right;
+}
+
+.container-fluid {
+    max-width: 3000px;
+}
+
+#create-expense-container {
+    display: none;
+}
+
+#create-expense-container,
+#create-expense-container-opened {
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+#invoice-activities-container {
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+}
